@@ -76,4 +76,4 @@ print ("Number of grade A in marks tuple is : ", marks.count("A"))
 # Now store this tuple  in a list and sort them from "A" to "D"
 marks_list = list(marks)#explict type casting
 marks_list.sort()
-print ("Sorted marks list : ", marks_list)
+print ("Sorted marks list : ", marks_list) 

@@ -1,15 +1,4 @@
-# #Task 01 Trafic Lights Code
-# print ("Traffic lights code : ")
-# color = input ("Enter the color of traffic light : ") 
-# if (color == "red"):
-#     print ("Stop")
-# elif (color == "yellow"):
-#     print ("Get ready")
-# elif (color == "green"):
-#     print ("Go")
-# else:
-#     print ("Broken traffic light")    
-#------------------------------------------
+
 # Type casting
 # a = "10" # type string
 # b = 20.25 # type float
@@ -37,12 +26,15 @@
 # b = float (input ("Enter the second number :"))
 # avg = (a + b) / 2   
 # print ("Average of two numbers is : ", avg)
-str = "Python is a programming language"
-str1 = 'Python is a programming language'
-str2 = """Python is a programming language"""
+# ---------------------------------------------
+# strings in python :
+# str = "Python is a programming language"
+# str1 = 'Python is a programming language'
+# str2 = """Python is a programming language"""
 # print (str)
 # print (str1)
 # print (str2)
+# Strings are immutable in python, we cannot change the value of a string once it is created.
 # #   \n is used to print the next string in new line
 # print ("Hello\nWorld")
 # # \t is used to print the next string after a tab space
@@ -102,11 +94,11 @@ str2 = """Python is a programming language"""
 # print (str5.count("a")) # 4
 
 # Some programs to practice string methods
-# 1. Program to take input user's first name and print its length
-print ("Hello, welcome to string methods practice programs")
-first_name = input("Enter your first name : ")
-print ("Length of your first name is : ", len(first_name))
+# # 1. Program to take input user's first name and print its length
+# print ("Hello, welcome to string methods practice programs")
+# first_name = input("Enter your first name : ")
+# print ("Length of your first name is : ", len(first_name))
 
-# 2. program to find the occurrence of $ in the a string
-str9 = input("Enter a string : ")
-print ("Occurrence of $ in the string is : ", str9.find("$"))
+# # 2. program to find the occurrence of $ in the a string
+# str9 = input("Enter a string : ")
+# print ("Occurrence of $ in the string is : ", str9.count("$"))
